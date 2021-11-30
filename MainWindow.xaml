@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Margin="10,10,10,10">
             <Label Content="Enter Number of Elements:" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBox x:Name="NumOfElementsTextBox" Text="50" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="110"/>
+            <TextBox x:Name="numOfElementsTextBox" Text="50" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="110"/>
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Margin="10" Grid.Column="1">
@@ -38,6 +38,13 @@
                 <ComboBoxItem Content="Bitonic Sort"/>
                 <ComboBoxItem Content="Bogo Sort"/>
             </ComboBox>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="10" Grid.Row="1" Grid.ColumnSpan="2">
+            <Button x:Name="startButton" Content="Start" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="arrayDisplay" TextWrapping="Wrap" Text="Array: " 
+                       HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Margin="30,0,0,0"/>
 
         </StackPanel>
 
