@@ -1,0 +1,13 @@
+﻿- selection sort
+- insertion sort
+- quick sort
+- merge sort
+- heap sort
+- radix sort
+- stable sort
+- shell sort
+- bubble sort
+- cocktail shaker sort
+- gnome sort
+- bitonic sort
+- bogo sort

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MySortingAlgorithms"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -19,6 +19,26 @@
         <StackPanel Orientation="Horizontal" Margin="10,10,10,10">
             <Label Content="Enter Number of Elements:" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox x:Name="NumOfElementsTextBox" Text="50" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="110"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="10" Grid.Column="1">
+            <Label Content="Choose an Algorithm:" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <ComboBox HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">
+                <ComboBoxItem Content="Selection Sort"/>
+                <ComboBoxItem Content="Insertion Sort"/>
+                <ComboBoxItem Content="Bubble Sort"/>
+                <ComboBoxItem Content="Shell Sort"/>
+                <ComboBoxItem Content="Quick Sort"/>
+                <ComboBoxItem Content="Merge Sort"/>
+                <ComboBoxItem Content="Heap Sort"/>
+                <ComboBoxItem Content="Radix Sort"/>
+                <ComboBoxItem Content="Stable Sort"/>
+                <ComboBoxItem Content="Cocktail Shaker Sort"/>
+                <ComboBoxItem Content="Gnome Sort"/>
+                <ComboBoxItem Content="Bitonic Sort"/>
+                <ComboBoxItem Content="Bogo Sort"/>
+            </ComboBox>
+
         </StackPanel>
 
     </Grid>
